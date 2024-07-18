@@ -19,7 +19,7 @@ export default function WeatherApp(){
      }
 
     return(
-        <div style={{textAlign:"center"}}>
+        <div style={{textAlign:"center" , width:"100vw"}}>
             <h2>Weather App By Vikram</h2>
             <SearchBox updateInfo={updateInfo}/>
             <InfoBox info={weatherInfo}/>
